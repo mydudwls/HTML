@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'nodemon',
+1 verbose cli   '-g'
+1 verbose cli ]
+2 info using npm@1.2.22
+3 info using node@v16.15.1
+4 verbose read json C:\Users\youyoungjin\AppData\Roaming\npm\package.json
+5 verbose read json C:\Users\youyoungjin\AppData\Roaming\npm\package.json
+6 verbose cache add [ 'nodemon', null ]
+7 verbose cache add name=undefined spec="nodemon" args=["nodemon",null]
+8 verbose parsed url Url {
+8 verbose parsed url   protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'nodemon',
+8 verbose parsed url   path: 'nodemon',
+8 verbose parsed url   href: 'nodemon'
+8 verbose parsed url }
+9 silly lockFile 1625b929-nodemon nodemon
+10 verbose lock nodemon C:\Users\youyoungjin\AppData\Roaming\npm-cache\1625b929-nodemon.lock
+11 silly lockFile 1625b929-nodemon nodemon
+12 silly lockFile 1625b929-nodemon nodemon
+13 verbose addNamed [ 'nodemon', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile 4f5e51c6-nodemon nodemon@
+16 verbose lock nodemon@ C:\Users\youyoungjin\AppData\Roaming\npm-cache\4f5e51c6-nodemon.lock
+17 silly addNameRange { name: 'nodemon', range: '', hasData: false }
+18 verbose url raw nodemon
+19 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon' ]
+20 verbose url resolved https://registry.npmjs.org/nodemon
+21 info trying registry request attempt 1 at 오전 4:32:13
+22 http GET https://registry.npmjs.org/nodemon
+23 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+24 info trying registry request attempt 2 at 오전 4:32:23
+25 http GET https://registry.npmjs.org/nodemon
+26 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+27 info trying registry request attempt 3 at 오전 4:33:23
+28 http GET https://registry.npmjs.org/nodemon
+29 silly lockFile 4f5e51c6-nodemon nodemon@
+30 silly lockFile 4f5e51c6-nodemon nodemon@
+31 error Error: unable to get local issuer certificate
+31 error     at TLSSocket.onConnectSecure (node:_tls_wrap:1532:34)
+31 error     at TLSSocket.emit (node:events:527:28)
+31 error     at TLSSocket._finishInit (node:_tls_wrap:946:8)
+31 error     at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:727:12)
+32 error If you need help, you may report this log at:
+32 error     <http://github.com/isaacs/npm/issues>
+32 error or email it to:
+32 error     <npm-@googlegroups.com>
+33 error System Windows_NT 10.0.22000
+34 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "nodemon" "-g"
+35 error cwd C:\Users\youyoungjin\Desktop\HTML\day1
+36 error node -v v16.15.1
+37 error npm -v 1.2.22
+38 error code UNABLE_TO_GET_ISSUER_CERT_LOCALLY
+39 verbose exit [ 1, true ]

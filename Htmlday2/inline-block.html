@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인라인요소와 블록요소</title>
+    <style>
+        div {
+            display: block;
+            width: 300px; 
+            height: 300px;
+            border: 3px solid black;
+            background-color: aquamarine;
+        }
+        div#d_2 {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 3px solid black;
+            background-color: orangered;
+        }
+        span {
+            display: block;
+            width: 200px;
+            height: 350px;
+            background-color: blanchedalmond;
+        }
+        .s2 {
+            width: 350px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+        .s3 {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div>Div1</div>
+    <div id="d_2" class="cd_2">Div2</div>
+    <span>Span1</span>
+    <span class="s2">Span2</span>
+    <span class="s3">Span3</span>
+    <h1>블록요소 h1</h1>
+</body>
+</html>
+<!-- 
+    <div id="d_2" class="cd_2">Div2</div> 
+    id도 사용이가능하다 그리고 클래스도 사용이 가능하다. 
+
+    span태그는 폭과 높이를 주어도 반영하지 않는다.
+    자체크기를 가지지 않기 때문에 크기를 지정할 수 없다
+    (글자 요소이다, 인라인요소 이다, 왼쪽에서 오른쪽으로 수평적으로 
+    쌓이고 남는 크기있으면 spen태그 가 줄어든다)
+
+    div태크는 블럭요소(상자요소)이며 자체크기가 있다(가로와 세로)
+    또한 블록요소는 크기를 변경할 수 있다
+
+    display 속성에 inline-block을 주면 두 가지를 다 사용가능함
+    display에 none을 주면 화면에 안보임. jf.setVisible(false);
+
+    화면에 안보이게 하고 싶으면 noon 처리하면 된다. 
+    (관리자 한테만 보이게 할 수 있다)
+
+-->
