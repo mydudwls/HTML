@@ -11,3 +11,4 @@ function changeName(obj){
   return {...obj, ename: 'king'};//react 활용빈도가 아주 높다
 let result = changeName(scott);
 console.log(result);
+}
