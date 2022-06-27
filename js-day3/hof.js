@@ -110,3 +110,4 @@ function change2(array, from, to){
   return newArray;
 }
 console.log(change2(animals, '🙉', '🐯'));
+//
