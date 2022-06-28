@@ -1,0 +1,11 @@
+@charset 'UTF-8';
+p {
+  border: 3px soild cyan;
+}
+
+p.blue {
+  border: 1px solid blue;
+}
+p.red {
+  border: 1px solid red;
+}
