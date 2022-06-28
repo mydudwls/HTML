@@ -1,0 +1,19 @@
+@charset 'utf-8';
+ul li:nth-of-type(1) {
+    coder: 1px solid red;
+}
+/*세번쨰 li만 변경하기*/
+ul li:nth-of-type(1) {
+    coder: 1px solid blue;
+}
+/* 마지막에서 첫번째 변경하기 또는 last-child도 가능*/
+ul li:nth-of-type(1) {
+    coder: 1px solid gray;
+}
+ul li:last-child { 
+    boder:3px solid purple;
+}
+/* 홀수만 적용하고 싶을 때 만일 짝수일때는 2n*/
+ul li:nth-of-type(2n-1) {
+    coder: 1px solid orange;
+}
