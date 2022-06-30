@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Orbitron&display=swap");
 * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 ul {
@@ -45,6 +45,11 @@ header .gnb li a {
   font: bold 16px/1 "Architects Daughter";
   color: white;
   letter-spacing: 2px;
+}
+
+header .gnb li.on a {
+  background-color: rgb(6, 232, 6);
+  color: white;
 }
 
 header .lnb {

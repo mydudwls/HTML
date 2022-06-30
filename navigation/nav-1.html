@@ -12,7 +12,7 @@
   <header>
     <h1>Java Camp</h1>
     <ul class="gnb">
-      <li><a href="#">JAVA</a></li>
+      <li class="on"><a href="#">JAVA</a></li>
       <li><a href="#">ORACLE</a></li>
       <li><a href="#">HTML5</a></li>
       <li><a href="#">JAVASCRIPT</a></li>
@@ -32,6 +32,18 @@
       <video src="./forest.mp4" muted autoplay loop></video>
     </div>
   </main>
+  <script>
+    const btns = document.querySelectorAll(".gnb li");
+    btns.forEach((btn, index) =>{
+      btn.addEventListener('click', (e) =>{
+        console.log(index);// 메뉴 리스트의 순번이 0 1 2 
+        for(let item of btns){
+          item.classList.remove('on');
+        }
+        btns[index].classList.add('on');
+      });
+    })
+  </script>
 </body>
 </html>
 
