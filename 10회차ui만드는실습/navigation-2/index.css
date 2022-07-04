@@ -1,8 +1,10 @@
-* {
+/* {
   box-sizing: border-box;
   border: 1px solid red;
+  테두리에 색깔있는 테두리가 생겨서 내가 어디어디를 지금 고치고 있는지를 
+  확인 할 수 있다.
 }
-
+*/
 a {
   text-decoration: none;
 }
@@ -10,6 +12,15 @@ a {
 body {
   background-color: black;
 }
+
+.cotainer { 
+  width: 90%;
+  max-width: 1480px;
+  padding: 0 20px;
+  margin: auto;
+  position: relative;
+}
+
 
 header {
   top: 0;
@@ -48,9 +59,39 @@ header h1 img {
   background-color: blue;
 }
 
+.ghost-btn {
+  background-color: transparent;
+  border: 1px solid blue;
+}
 .text-wrap {
+  width: 520px;
+  height: 100vh;
+  padding: 240px 20px;
+  left: 0;
+  top: 0;
   position: absolute;
   z-index: 2;
+}
+
+.text-wrap h2 { 
+  color: white;
+  font-size: 64;
+  line-height: 1.25;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.text-wrap p { 
+  color: white;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.text-wrap h3 { 
+  color: white;
+  font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 20px;
 }
 
 .hero-bg {
